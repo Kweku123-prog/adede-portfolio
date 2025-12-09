@@ -58,7 +58,7 @@ export default function GadedeSegbefiaPortfolio() {
           <div className="flex items-center gap-4">
             <button onClick={() => scrollTo("home")} aria-label="Go home" className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-full overflow-hidden border border-rose-400 shadow">
-                <img src="../src/assets/ITC-90.jpg" className="w-full h-full object-cover" />
+                <img src="/assets/ITC-90.jpg" className="w-full h-full object-cover" />
               </div>
               <div className="text-sm">
                 <div className="font-semibold text-white">Gadede Aku Segbefia</div>
@@ -154,7 +154,7 @@ export default function GadedeSegbefiaPortfolio() {
 <h2 className="text-3xl font-bold text-white mb-12">Artist Statement</h2>
 <div className="grid md:grid-cols-2 gap-12 items-center">
 <div className="rounded-2xl overflow-hidden shadow-2xl border border-white/10">
-<img src="../src/assets/PRM_3938 (1).jpg" className="w-full h-full object-cover" />
+<img src="/assets/PRM_3938 (1).jpg" className="w-full h-full object-cover" />
 </div>
 <div>
 <p className="text-gray-300 leading-relaxed text-lg">"Acting gives me the freedom to escape the limitations of my world and embrace the fullness of other lives. Every character is a doorway into understanding humanity, and every performance is an opportunity to tell stories that matter. My craft is rooted in authenticity, courage, and curiosity. I honour the diversity of African stories and use my voice; both spoken and poetic to bring them to life."</p>
@@ -166,7 +166,7 @@ export default function GadedeSegbefiaPortfolio() {
         {/* ABOUT */}
         <section id="about" className="max-w-6xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-12 items-center">
           <div className="rounded-2xl overflow-hidden shadow-2xl border border-white/10">
-            <img src="../src/assets/PRM_3773.jpg" className="w-full h-full object-cover" />
+            <img src="/assets/PRM_3773.jpg" className="w-full h-full object-cover" />
           </div>
           <div>
             <h2 className="text-3xl font-bold text-white">About Gadede</h2>
@@ -231,7 +231,7 @@ Today, Gadede’s work spans stage, screen, voice performance, and commercial st
 
 
 <div className="rounded-2xl overflow-hidden shadow-2xl border border-white/10">
-<img src="../src/assets/PRM_3742.jpg" className="w-full h-full object-cover" />
+<img src="/assets/PRM_3742.jpg" className="w-full h-full object-cover" />
 </div>
 </div>
 </section>
@@ -249,7 +249,7 @@ Today, Gadede’s work spans stage, screen, voice performance, and commercial st
           <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
             {["ITC-70.jpg", "ITC-10.jpg", "ITC-115.jpg", "ITC-5.jpg", "ITC-151.jpg", "ITC-122.jpg", "PRM_3764.jpg", "PRM_3954-Edit.jpg","PRM_3962-Edit.jpg"].map((img) => (
               <div key={img} className="rounded-2xl overflow-hidden shadow-lg bg-white/5 border border-white/10">
-                <img src={`../src/assets/${img}`} className="w-full h-64 object-cover" />
+                <img src={`/assets/${img}`} className="w-full h-64 object-cover" />
               </div>
             ))}
           </div>
